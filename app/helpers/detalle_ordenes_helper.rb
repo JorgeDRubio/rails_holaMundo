@@ -1,0 +1,2 @@
+module DetalleOrdenesHelper
+end
