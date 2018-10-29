@@ -1,14 +1,20 @@
 <p id="notice"><%= notice %></p>
-
-<p>
-  <strong>Rfc:</strong>
+<form>
+<div class="form-group">
+<p style="color: black; font-family: Verdana;">
+  <strong style="color: black; font-family: Verdana;">RFC:</strong>
   <%= @client.rfc %>
 </p>
+</div>
 
-<p>
-  <strong>Nombre cliente:</strong>
+<div class="form-group">
+<p style="color: black; font-family: Verdana;">
+  <strong style="color: black; font-family: Verdana;">Nombre cliente:</strong>
   <%= @client.nombre_cliente %>
 </p>
+</div>
+
+</form>
 
 <%= link_to 'Edit', edit_client_path(@client) %> |
 <%= link_to 'Back', clients_path %>
