@@ -24,6 +24,8 @@ class OrdenesController < ApplicationController
   # POST /ordenes
   # POST /ordenes.json
   def create
+       #params [:deordene].permit
+    #@ordene = Ordene.new( params[:ordene])
     @ordene = Ordene.new(ordene_params)
 
     respond_to do |format|
