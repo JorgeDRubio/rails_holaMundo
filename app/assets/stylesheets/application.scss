@@ -14,3 +14,23 @@
  *= require_self
  */
  @import "bootstrap";
+ body {
+    background-color: rgb(23, 175, 226);
+}
+
+h1 {
+    color: rgb(151, 58, 58);
+    text-align: center;
+}
+h2 {
+    color: rgb(151, 58, 58);
+    text-align: center;
+}
+h3 {
+    color: rgb(151, 58, 58);
+    text-align: center;
+}
+p {
+    font-family: verdana;
+    font-size: 20px;
+}
